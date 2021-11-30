@@ -11,15 +11,21 @@ const banner = `/*!
 
 export default {
   input: 'src/jquery.timepicker.js',
+  external: ['$'],
   output: [
+    // {
+    //   file: 'jquery.timepicker.js',
+    //   format: 'iife',
+    //   banner: banner
+    // },
+    // {
+    //   file: 'jquery.timepicker.min.js',
+    //   format: 'iife',
+    //   plugins: [terser()]
+    // },
     {
-      file: 'jquery.timepicker.js',
-      format: 'iife',
-      banner: banner
-    },
-    {
-      file: 'jquery.timepicker.min.js',
-      format: 'iife',
+      file: 'jquery.timepicker.bundle.min.js',
+      format: 'es',
       plugins: [terser()]
     }
   ],
