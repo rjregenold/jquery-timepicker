@@ -11,7 +11,7 @@ const banner = `/*!
 
 export default {
   input: 'src/jquery.timepicker.js',
-  external: ['$'],
+  external: ['jquery'],
   output: [
     // {
     //   file: 'jquery.timepicker.js',

@@ -28,10 +28,9 @@
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-terser": "^5.3.0"
   },
-  "main": "jquery.timepicker.min.js",
+  "module": "jquery.timepicker.bundle.min.js",
   "files": [
-    "jquery.timepicker.min.js",
-    "jquery.timepicker.js",
+    "jquery.timepicker.bundle.min.js",
     "jquery.timepicker.css",
     "jquery.timepicker.min.css"
   ],
